@@ -26,7 +26,7 @@ public class ConnectionLog {
     {
         if (!checkFlag()) return;
         File sdcard = Environment.getExternalStorageDirectory();
-        File logDir = new File(sdcard, "tokudu/log/");
+        File logDir = new File(sdcard, "mqtt/log/");
         if (!logDir.exists()) {
             logDir.mkdirs();
             // do not allow media scan
