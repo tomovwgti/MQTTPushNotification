@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MyActivity"
+    android:background="#ff56d2ff">
+
+    <TextView
+        android:text="@string/device_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/deviceid"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/server_address"
+        android:layout_marginTop="42dp"
+        android:layout_below="@+id/deviceid"
+        android:layout_centerHorizontal="true"
+        android:text="@string/server"
+        android:hint="server address" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/topic"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/server_address"
+        android:layout_alignLeft="@+id/server_address"
+        android:layout_alignStart="@+id/server_address"
+        android:layout_alignRight="@+id/server_address"
+        android:layout_alignEnd="@+id/server_address"
+        android:hint="topic"
+        android:text="@string/topic" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Start Push service"
+        android:id="@+id/start_button"
+        android:layout_marginTop="28dp"
+        android:layout_below="@+id/topic"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Stop Push Service"
+        android:id="@+id/stop_button"
+        android:layout_marginTop="31dp"
+        android:layout_below="@+id/start_button"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
