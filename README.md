@@ -1,5 +1,4 @@
 # MQTT Push Notification sample
-===
 
 MQTTブローカに接続し、pushを受信するAndroidクライントのサンプルです。
 
@@ -14,7 +13,6 @@ MQTTのpush待ち受けはかなり軽いですね。ちょっとしたサーバ
 
 
 ### ブローカサーバ
-===
 
 動作確認のブローカサーバにはMosquittoを使いました。
 
