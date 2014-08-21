@@ -17,3 +17,7 @@ MQTTのpush待ち受けはかなり軽いですね。ちょっとしたサーバ
 動作確認のブローカサーバにはMosquittoを使いました。
 
 [http://mosquitto.org/](http://mosquitto.org/)
+
+### WMQTT
+
+[こちらから入手して下さい](http://www-01.ibm.com/support/docview.wss?rs=171&uid=swg24006006&loc=en_US&cs=utf-8&lang=en)
